@@ -6,6 +6,7 @@
       </template>
     </nav-bar>
     <main-swiper :banners="this.banners"></main-swiper>
+    <recommend :recommend="this.recommends"></recommend>
   </div>
 </template>
 
@@ -13,12 +14,14 @@
 import NavBar from 'components/common/navbar/NavBar.vue'
 import { getHomeMultidata } from '@/network/home.js'
 import MainSwiper from './children/MainSwiper.vue'
+import Recommend from './children/Recommend.vue'
 
 export default {
   name: 'Home',
   components: {
     NavBar,
-    MainSwiper
+    MainSwiper,
+    Recommend
   },
   data () {
     return {
@@ -39,8 +42,5 @@ export default {
 </script>
 
 <style>
-  #home {
-    background: pink;
-    color: white;
-  }
+  
 </style>

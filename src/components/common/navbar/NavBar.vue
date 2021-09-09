@@ -24,11 +24,13 @@ export default {
       height: 44px;
       text-align: center;
       line-height: 44px;
+      background: pink;
   }
   .navbar-left,.navbar-right {
       width: 60px;
   }
   .navbar-center {
       flex: 1;
+      color: white;
   }
 </style>
