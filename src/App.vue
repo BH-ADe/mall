@@ -5,7 +5,7 @@
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import MainTabBar from './components/common/MainTabBar.vue'
+import MainTabBar from './components/content/MainTabBar.vue'
 
 export default {
   name: 'App',
