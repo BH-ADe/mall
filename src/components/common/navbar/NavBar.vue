@@ -21,10 +21,15 @@ export default {
 <style>
   .nav-bar {
       display: flex;
+      width: 100%;
       height: 44px;
       text-align: center;
       line-height: 44px;
       background: pink;
+
+      position: fixed;
+      top: 0;
+      z-index: 9;
   }
   .navbar-left,.navbar-right {
       width: 60px;
